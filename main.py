@@ -7,9 +7,9 @@ def read_data():
     """This function reads calculate.txt for bmi/bmr calculation requests."""
     read = False
     while not read:
-        file = open("calculate.txt", "r")
-        data = file.readline()
-        file.close()
+        read_file = open("calculate.txt", "r")
+        data = read_file.readline()
+        read_file.close()
         data = data.split()
         if len(data) != 0:
             read = True
@@ -25,17 +25,19 @@ def read_data():
                 age = float(data[3])
                 write_bmi(weight, height)
                 write_bmr(sex, weight, height, age)
-            with open("calculate.txt", "w") as file:
-                file.write("")
-                
+            with open("calculate.txt", "w") as write_file:
+                write_file.write("")
+
+
 def write_bmi(weight, height):
     """Calculate the BMI and write to bmi.txt."""
-    bmi = str((weight/(height**2))*10000)
+    bmi = str((weight / (height ** 2)) * 10000)
     with open("bmi.txt", "w") as file:
         file.write(bmi)
 
+
 def write_bmr(sex, weight, height, age):
-    "Calculate the BMR and write to bmr.txt."
+    """Calculate the BMR and write to bmr.txt."""
     if sex.lower() == "f":
         bmr = str((447.593 + (9.247 * weight) + (3.098 * height) - (4.330 * age)))
     elif sex.lower() == "m":
@@ -44,8 +46,7 @@ def write_bmr(sex, weight, height, age):
         bmr = sex
     with open("bmr.txt", "w") as file:
         file.write(bmr)
-        
 
-while(True):
+
+while True:
     read_data()
-    

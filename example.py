@@ -4,16 +4,24 @@ def request_calculation(data_string):
 
 
 def read_bmi():
-    with open("bmi.txt", "r") as read_file:
-        bmi = read_file.readline()
+    read = False
+    while not read:
+        with open("bmi.txt", "r") as read_file:
+            bmi = read_file.readline()
+        if len(bmi.split()) != 0:
+            read = True
     with open("bmi.txt", "w") as write_file:
         write_file.write("")
     return bmi
 
 
 def read_bmr():
-    with open("bmr.txt", "r") as read_file:
-        bmr = read_file.readline()
+    read = False
+    while not read:
+        with open("bmr.txt", "r") as read_file:
+            bmr = read_file.readline()
+        if len(bmr.split()) != 0:
+            read = True
     with open("bmr.txt", "w") as write_file:
         write_file.write("")
     return bmr
