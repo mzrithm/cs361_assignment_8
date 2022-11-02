@@ -1,14 +1,12 @@
 # BMI & BMR Microservice
-___
 
 This microservice calculates the BMI, or the BMR and BMI via text file pipelines.
 
 # How to REQUEST Data
-___
 
 The BMI is calculated by submitting the person's weight in kg and their height in cm.
 
-The BMR and BMI is calculated by submitting the person's sex ('m' or 'f'), their weight in kg, their height in cm, and their age in years.
+The BMR and BMI is calculated by submitting the person's sex (`'m'` or `'f'`), their weight in kg, their height in cm, and their age in years.
 
 # How to RECEIVE Data
 
