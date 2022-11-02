@@ -15,4 +15,4 @@ The BMR and BMI is calculated by submitting the person's sex ('m' or 'f'), their
 
 # UML Sequence Diagram
 
-![BMI & BMR Microservice UML Sequence Diagram](https://github.com/mzrithm/cs361_assignment_8/blob/ced4b5abdc9c506c16ff49d1698503ce3ebf085f/MicroserviceUML.png)
+![BMI & BMR Microservice UML Sequence Diagram](https://github.com/mzrithm/cs361_assignment_8/blob/61dedf440d198dec7b65d0de8329e9a997426791/bmi%20bmr%20UML.png)
