@@ -33,9 +33,9 @@ def read_bmr():
 
 request_calculation("58.967 167.64")
 
-print("BMI: ", read_bmi())
-print("BMR: ", read_bmr())
-print("\n")
+with open("result_1.txt", "w") as result_1:
+    result_1_message = f'BMI is {read_bmi()} and BMR is {read_bmr()}.'
+    result_1.write(result_1_message)
 
 # person is male, 160 lbs, 5 ft 9 inches, and 40 years old
 # convert to metric -> 73.482 kg and 175.26 cm
@@ -43,5 +43,6 @@ print("\n")
 
 request_calculation("m 73.482 175.26 40")
 
-print("BMI: ", read_bmi())
-print("BMR: ", read_bmr())
+with open("result_2.txt", "w") as result_2:
+    result_2_message = f'BMI is {read_bmi()} and BMR is {read_bmr()}.'
+    result_2.write(result_2_message)
