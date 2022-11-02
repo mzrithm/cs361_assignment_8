@@ -1,6 +1,8 @@
 # BMI & BMR Microservice
 
-This microservice calculates the BMI, or the BMR and BMI via text file pipelines.
+This microservice calculates the BMI, or the BMR and BMI upon request by the user. 
+
+Requests are made and received via text file pipelines.
 
 # How to REQUEST Data
 
