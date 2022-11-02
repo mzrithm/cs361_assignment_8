@@ -6,4 +6,4 @@
 
 # UML Sequence Diagram
 
-![BMI & BMR Microservice UML Sequence Diagram](HOLD)
+![BMI & BMR Microservice UML Sequence Diagram](MicroserviceUML.pdf)
