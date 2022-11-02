@@ -8,7 +8,9 @@ The BMI is calculated by submitting the person's weight in kg and their height i
 For example:
 
 `def request_calculation(data_string):
+
     with open("calculate.txt", "w") as file:
+    
     file.write(data_string)`
 
 The BMR and BMI is calculated by submitting the person's sex ('m' or 'f'), their weight in kg, their height in cm, and their age in years.
