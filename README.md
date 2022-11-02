@@ -26,6 +26,18 @@ This is an example of using the function to request the BMR and the BMI calculat
 
 # How to RECEIVE Data
 
+The BMI is received by reading from the `bmi.txt` file.
+
+The BMR is received by reading from the `bmr.txt` file.
+
+For example, here is a simple function that can be used to receive the BMI:
+
+![read_bmi()](https://github.com/mzrithm/cs361_assignment_8/blob/f308948c0069bc216c72ae2bce0d253393bf047c/read_bmi().png)
+
+For example, here is a simple function that can be used to receive the BMR:
+
+![read_bmr()](https://github.com/mzrithm/cs361_assignment_8/blob/f308948c0069bc216c72ae2bce0d253393bf047c/read_bmr().png)
+
 # UML Sequence Diagram
 
 ![BMI & BMR Microservice UML Sequence Diagram](https://github.com/mzrithm/cs361_assignment_8/blob/61dedf440d198dec7b65d0de8329e9a997426791/bmi%20bmr%20UML.png)
