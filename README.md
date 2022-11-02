@@ -7,9 +7,9 @@ This microservice calculates the BMI, or the BMR and BMI via text file pipelines
 The BMI is calculated by submitting the person's weight in kg and their height in cm.
 For example:
 
-`def request_calculation(data_string):
+`def request_calculation(data_string):`
     
-    with open("calculate.txt", "w") as file:
+    `with open("calculate.txt", "w") as file:
     
     file.write(data_string)`
 
