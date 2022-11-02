@@ -7,7 +7,7 @@ This microservice calculates the BMI, or the BMR and BMI via text file pipelines
 The BMI is calculated by submitting the person's weight in kg and their height in cm.
 For example:
 
-![request_calculation(data_string)]()
+![request_calculation(data_string)](https://github.com/mzrithm/cs361_assignment_8/blob/79e1cfeaadb90776e647eee608759beae082e936/request_calculation().png)
 
 The BMR and BMI is calculated by submitting the person's sex ('m' or 'f'), their weight in kg, their height in cm, and their age in years.
 
