@@ -8,7 +8,7 @@ The BMI is calculated by submitting the person's weight in kg and their height i
 For example:
 
 `def request_calculation(data_string):
-
+    
     with open("calculate.txt", "w") as file:
     
     file.write(data_string)`
